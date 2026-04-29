@@ -1,0 +1,102 @@
+body{
+    margin: 0; 
+   padding: 0; 
+   box-sizing: border-box; 
+   font-size: 10px; 
+   background-image: url(./comic1/5445283.jpg);
+}
+header{
+   background-color: rgb(187, 133, 238);
+   width: 100%; 
+   height: 13vh; 
+   display: flex; 
+}
+nav{
+   width: 35%; 
+   height: 100%; 
+   display: flex; 
+   justify-content: space-around; 
+   align-items: center; 
+}
+a{
+   text-decoration: none; 
+   font-family: 'Times New Roman', Times, serif; 
+   font-size: 1.8em; 
+   color: rgb(255, 255, 255);
+}
+.logo{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 35%;
+   height: 100%;
+}
+#logop{
+   
+   width: 200px;
+   height: 100px;
+}
+.op{
+   width: 35%;
+   height: 100%;
+   display: flex;
+   justify-content: space-around; 
+   align-items: center;
+}
+.inicioS{
+   background-color: rgb(68, 36, 110);
+   padding: 10px;
+   border-radius: 10px;
+}
+#Buscador{
+   width: 100px;
+}
+main{
+   width: 100%; 
+   height: 80vh;
+}
+.comic{
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   width: 100%;
+   height: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+.bloque1{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-around;
+   align-items: center;
+}
+.bloque2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: rgba(85, 89, 146, 0.733) ;
+   width: 30%;
+   align-items: center;
+   border-radius: 10px;
+}
+.paginas{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   width: 45%;
+   height: 100%;
+   align-items: center;
+   padding: 10px;
+}
+.botones{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 8px;
+   padding: 5px;
+}
+#paginas{
+   width: 400px;
+   border-radius: 5px;
+}
